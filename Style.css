@@ -89,6 +89,7 @@ body * {
   height: 24px;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
@@ -146,6 +147,9 @@ ul li a:hover {
   justify-content: center;
   padding: 16px;
 
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
   transition: backgorund 0.2s;
   border-radius: 50%;
 }
@@ -162,13 +166,12 @@ footer {
 
 /* media queries */
 @media (min-width: 768px) {
-:root {
---bg-url(./assrts/bg-desktop.jpg);
-}
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
 
-.light {
-  --bg-url: url(./assets/bg-desktop-light.jpg);
-}
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
 
