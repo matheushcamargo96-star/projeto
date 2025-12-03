@@ -20,9 +20,6 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <p align="center">
 <<<<<<< HEAD
   <img alt="calendario da copa" src=".github/preview.jpg" width="100%">
-=======
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
->>>>>>> 6a57a3575bf0d29374c438699de19e7ee0ecbf4e
 </p>
 
 ## 🚀 Tecnologias
